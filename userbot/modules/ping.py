@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 # ReCode by @mrismanaziz
-# FROM ZELDA USERBOT <https://github.com/fhmyngrh/ZeldaUbot>
+# FROM ZELDA USERBOT <https://github.com/fhmyngrh/Zelda-Ubot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import random
@@ -15,16 +15,17 @@ from speedtest import Speedtest
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, StartTime, bot
+from userbot import ALIVE_NAME
 from userbot.events import register
 from userbot.utils import edit_or_reply, humanbytes, zelda_cmd
 
 absen = [
-    "**Hadir bang...**\n**ZELDA USERBOT NI BOSS**😆",
-    "**Hadir kak...**\n**ZELDA USERBOT NI BOSS** 😉",
-    "**Hadir dong...**\n**ZELDA USERBOT NI BOSS** 😁",
-    "**Hadir ganteng...**\n**ZELDA USERBOT NI BOSS** 🥵",
-    "**Hadir bro...**\n**ZELDA USERBOT NI BOSS** 😎",
-    "**Hadir kak maap telat...**\n**ZELDA USERBOT NI BOSS** 🥰",
+    "**{ALIVE_NAME} Hadir bang...**\n**ZELDA USERBOT NI BOSS**😆",
+    "**{ALIVE_NAME} Hadir kak...**\n**ZELDA USERBOT NI BOSS** 😉",
+    "**{ALIVE_NAME} Hadir dong...**\n**ZELDA USERBOT NI BOSS** 😁",
+    "**{ALIVE_NAME} Hadir ganteng...**\n**ZELDA USERBOT NI BOSS** 🥵",
+    "**{ALIVE_NAME} Hadir bro...**\n**ZELDA USERBOT NI BOSS** 😎",
+    "**{ALIVE_NAME} Hadir kak maap telat...**\n**ZELDA USERBOT NI BOSS** 🥰",
 ]
 
 

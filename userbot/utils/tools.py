@@ -15,7 +15,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 # Recode by @mrismanaziz
-# FROM ZELDA USERBOT <https://github.com/fhmyngrh/ZeldaUbot>
+# FROM ZELDA USERBOT <https://github.com/fhmyngrh/Zelda-Ubot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 #
 
@@ -313,7 +313,7 @@ async def bash(cmd):
 def post_to_telegraph(title, html_format_content):
     post_client = TelegraphPoster(use_api=True)
     auth_name = "ZELDA USERBOT"
-    auth_url = "https://github.com/fhmyngrh/ZeldaUbot"
+    auth_url = "https://github.com/fhmyngrh/Zelda-Ubot"
     post_client.create_api_token(auth_name)
     post_page = post_client.post(
         title=title,

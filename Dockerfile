@@ -1,11 +1,11 @@
 FROM mrismanaziz/man-userbot:buster
 
-RUN git clone -b Zelda-Ubot https://github.com/fhmyngrh/Zelda-Ubot /home/zelda-ubot/ \
-    && chmod 777 /home/Zelda-Ubot \
-    && mkdir /home/Zelda-Ubot/bin/
+RUN git clone -b Zelda-Ubot https://github.com/fhmyngrh/Zelda-Ubot /home/zeldaubot/ \
+    && chmod 777 /home/zeldaubot \
+    && mkdir /home/zeldaubot/bin/
 
-COPY ./sample_config.env ./config.env* /home/zelda-ubot/
+COPY ./sample_config.env ./config.env* /home/zeldaubot/
 
-WORKDIR /home/zelda-ubot/
+WORKDIR /home/zeldaubot/
 
 CMD ["python3", "-m", "userbot"]

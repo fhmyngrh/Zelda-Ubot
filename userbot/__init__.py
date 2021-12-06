@@ -163,7 +163,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/fhmyngrh/Zelda-Ubot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/fhmyngrh/Zelda-Ubot"
 )
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Zelda-Ubot")
 

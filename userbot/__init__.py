@@ -163,9 +163,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/fhmyngrh/ZeldaUbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/fhmyngrh/Zelda-Ubot.git"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "ZeldaUbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Zelda-Ubot")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -235,7 +235,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "ZeldaUbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Zelda-Ubot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "2.0")
@@ -553,12 +553,12 @@ with bot:
                     description="Repository ZELDA USERBOT",
                     url="https://t.me/zldprojects",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**ZELDA USERBOT**\n• **Owner Repo :** [Lord Zelda](https://t.me/UnrealZelda)\n• **Support :** @zldprojects\n• **Repository :** [ZELDA USERBOT](https://github.com/fhmyngrh/ZeldaUbot)",
+                    text="**ZELDA USERBOT**\n• **Owner Repo :** [Lord Zelda](https://t.me/UnrealZelda)\n• **Support :** @zldprojects\n• **Repository :** [ZELDA USERBOT](https://github.com/fhmyngrh/Zelda-Ubot)",
                     buttons=[
                         [
                             custom.Button.url("GROUP CHAT", "https://t.me/UnrealBabies"),
                             custom.Button.url(
-                                "REPO", "https://github.com/fhmyngrh/ZeldaUbot"
+                                "REPO", "https://github.com/fhmyngrh/Zelda-Ubot"
                             ),
                         ],
                     ],
@@ -575,7 +575,7 @@ with bot:
                         [
                             custom.Button.url("GROUP CHAT", "https://t.me/UnrealBabies"),
                             custom.Button.url(
-                                "REPO", "https://github.com/fhmyngrh/ZeldaUbot"
+                                "REPO", "https://github.com/fhmyngrh/Zelda-Ubot"
                             ),
                         ],
                     ],

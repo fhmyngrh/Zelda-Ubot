@@ -25,19 +25,19 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 
 ## Tutorial
 
-- [Panduan Cara Memasang Man-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
+- [Panduan Cara Memasang Zelda-Ubot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
 - [Cara Setting Last.FM modules](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)
-- [List Variabel Man-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
+- [List Variabel Zelda-Ubot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
 
 ### Generate String Session
 <a href="https://replit.com/@fhmyngrh/Zelda-String-Session"><img src="https://img.shields.io/badge/RUN-Get__String-red?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fhmyngrh/ZeldaUbot/tree/ZeldaUbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fhmyngrh/Zelda-Ubot/tree/Zelda-Ubot)
 
 ## Updates dan support
 
-Follow Channel [@zldaprojects](https://t.me/zldaprojects) untuk info Update bot dan Gabung Group [@UnrealBabies](https://t.me/UnrealBabies) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Man-Userbot.
+Follow Channel [@ZeldaProjects](https://t.me/zeldaprojects) untuk info Update bot dan Gabung Group [@UnrealBabies](https://t.me/UnrealBabies) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Man-Userbot.
 
 ## © Credits
 #### Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!

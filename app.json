@@ -3,7 +3,7 @@
   "description": "[ZEDA USERBOT] userbot Telegram modular yang berjalan pada Python 3.8+",
   "logo": "https://telegra.ph/file/6a3b3f4992c9fb5084c5e.jpg",
   "keywords": ["telegram", "userbot", "zelda-userbot", "modular", "python"],
-  "repository": "https://github.com/fhmyngrh/ZeldaUbot",
+  "repository": "https://github.com/fhmyngrh/Zelda-Ubot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -46,12 +46,12 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "UPSTREAM Link Repo Utama",
-      "value": "https://github.com/fhmyngrh/ZeldaUbot",
+      "value": "https://github.com/fhmyngrh/Zelda-Ubot",
       "required": true
     },
     "ALIVE_NAME": {
       "description": "Masukan Nama untuk menunjukan pesan di perintah .alive / .afk / .ping dan lain lain",
-      "required": false
+      "required": true
     }
   },
   "addons": [

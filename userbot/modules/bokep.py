@@ -88,7 +88,7 @@ async def amireallylsid(lsid):
 CMD_HELP.update(
     {
         "ch_asupan": f"**Plugin : **`asupan`\
-        \n\n**KHUSUS UNTUK OWNER BOT**\
+        \n\n**KHUSUS UNTUK OWNER BOT. BELUM TERSEDIA UNTUK USER**\
     "
     }
 )

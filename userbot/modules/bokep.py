@@ -8,6 +8,7 @@ async def amireallysxs(sxs):
     user = await bot.get_me()
     capt = str(sxs.pattern_match.group(1).split(" ", 2)[0])
     link = str(sxs.pattern_match.group(1).split(" ", 2)[1])
+    capti = capt.replace("_", " ")
     thumb = "https://telegra.ph/file/ddb9147429cae2ae6135e.jpg"
     await sxs.edit("__Please Wait.__")
     await sxs.edit("__Please Wait..__")
@@ -19,7 +20,7 @@ async def amireallysxs(sxs):
     await sxs.edit("⚡")
     await asyncio.sleep(2)
     output = (
-        f"**{capt}\n\n"
+        f"**{capti}**\n\n"
         f"⬇️ KLIK UNTUK MENONTON ⬇️\n"
         f"{link}\n\n"
         f"📍Support Join : @LustsketchID\n"
@@ -45,7 +46,7 @@ async def amireallysxs(sxs):
         
 CMD_HELP.update(
     {
-        "ch_asupan": f"**Plugin : **`bokep`\
+        "ch_asupan": f"**Plugin : **`asupan`\
         \n\n**KHUSUS UNTUK OWNER BOT**\
     "
     }

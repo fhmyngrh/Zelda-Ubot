@@ -20,7 +20,7 @@ async def amireallysxs(sxs):
     await sxs.edit("⚡")
     await asyncio.sleep(2)
     output = (
-        f"**{capti}\n\n"
+        f"**{capti}**\n\n"
         f"⬇️ KLIK UNTUK MENONTON ⬇️\n"
         f"{link}\n\n"
         f"📍Support Join : @LustsketchID\n"
@@ -61,7 +61,7 @@ async def amireallylsid(lsid):
     await lsid.edit("⚡")
     await asyncio.sleep(2)
     output = (
-        f"**{capti}\n\n"
+        f"**{capti}**\n\n"
         f"⬇️ Your Link\n"
         f"{link}\n\n"
         f"📍Support Join : @SexualSins58\n"

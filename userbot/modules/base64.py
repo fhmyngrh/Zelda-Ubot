@@ -2,7 +2,7 @@ import pybase64
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, bot
-from userbot.events import zelda_cmd, edit_delete, edit_or_reply
+from userbot.utils import zelda_cmd, edit_delete, edit_or_reply
 
 @zelda_cmd(pattern="enc(?: |$)(.*)")
 async def endecrypt(query):

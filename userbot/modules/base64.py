@@ -4,7 +4,8 @@ from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, bot
 from userbot.utils import edit_delete, edit_or_reply, zelda_cmd
 
-@bot.on(zelda_cmd(outgoing=True, pattern="enc(?: |$)(.*)"))
+
+@zelda_cmd(outgoing=True, pattern=r"enc(?: |$)(.*)")
 async def endecrypt(query):
     if xx:
         msg = xx
@@ -16,7 +17,7 @@ async def endecrypt(query):
     await query.edit("`" + lething[:-1] + "`")
     
         
-@bot.on(zelda_cmd(outgoing=True, pattern="dec(?: |$)(.*)"))
+@zelda_cmd(outgoing=True, pattern=r"dec(?: |$)(.*)")
 async def endecrypt(query):
     if xx:
         msg = xx

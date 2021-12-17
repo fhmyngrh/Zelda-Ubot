@@ -13,7 +13,7 @@ async def endecrypt(query):
         msg = await query.get_reply_message()
     else:
         return await edit_delete(query, "**Berikan Sebuah Pesan atau Reply**")
-    lething = str(pybase64.b64encode(bytes(msg, "utf-8")))[2:]
+    lething = str(pybase64.b64encode(bytes(f"{msg}", "utf-8")))[2:]
     await query.edit("`" + lething[:-1] + "`")
     
         
@@ -26,7 +26,7 @@ async def endecrypt(query):
         msg = await query.get_reply_message()
     else:
         return await edit_delete(query, "**Berikan Sebuah Pesan atau Reply**")
-    lething = str(pybase64.b64decode(bytes(msg, "utf-8"), validate=True))[2:]
+    lething = str(pybase64.b64decode(bytes(f"{msg}", "utf-8"), validate=True))[2:]
     await query.edit(f"**Decoded from** `{msg}` **:**\n`" + lething[:-1] + "`")
         
 

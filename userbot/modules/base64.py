@@ -2,10 +2,9 @@ import pybase64
 
 from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP, bot
-from userbot.utils import edit_delete, edit_or_reply, zelda_cmd
+from userbot.events import zelda_cmd, edit_delete, edit_or_reply
 
-
-@zelda_cmd(outgoing=True, pattern=r"enc(?: |$)(.*)")
+@zelda_cmd(pattern="enc(?: |$)(.*)")
 async def endecrypt(query):
     if xx:
         msg = xx
@@ -17,7 +16,7 @@ async def endecrypt(query):
     await query.edit("`" + lething[:-1] + "`")
     
         
-@zelda_cmd(outgoing=True, pattern=r"dec(?: |$)(.*)")
+@zelda_cmd(pattern="dec(?: |$)(.*)")
 async def endecrypt(query):
     if xx:
         msg = xx

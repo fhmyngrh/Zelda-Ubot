@@ -6,7 +6,7 @@ from userbot.utils import zelda_cmd, edit_delete, edit_or_reply
 
 @zelda_cmd(pattern="enc(?: |$)(.*)")
 async def endecrypt(query):
-    xx = event.pattern_match.group(1)
+    xx = query.pattern_match.group(1)
     if xx:
         msg = xx
     elif event.is_reply:
@@ -19,7 +19,7 @@ async def endecrypt(query):
         
 @zelda_cmd(pattern="dec(?: |$)(.*)")
 async def endecrypt(query):
-    xx = event.pattern_match.group(1)
+    xx = query.pattern_match.group(1)
     if xx:
         msg = xx
     elif event.is_reply:

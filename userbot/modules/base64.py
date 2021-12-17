@@ -29,7 +29,7 @@ async def endecrypt(query):
     else:
         return await edit_delete(query, "**Berikan Sebuah Pesan atau Reply**")
     lething = str(pybase64.b64decode(bytes(f"{msg}", "utf-8"), validate=True))[2:]
-    await query.edit(f"**Decoded from** `{msg}` **:**\n`" + lething[:-1] + "`")
+    await query.edit("`" + lething[:-1] + "`")
         
 
 CMD_HELP.update(

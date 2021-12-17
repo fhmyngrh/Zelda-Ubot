@@ -9,10 +9,10 @@ async def endecrypt(query):
     xx = query.pattern_match.group(1)
     if xx:
         msg = xx
-    elif event.is_reply:
-        msg = await event.get_reply_message()
+    elif query.is_reply:
+        msg = await query.get_reply_message()
     else:
-        return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply**")
+        return await edit_delete(query, "**Berikan Sebuah Pesan atau Reply**")
     lething = str(pybase64.b64encode(bytes(msg, "utf-8")))[2:]
     await query.edit("`" + lething[:-1] + "`")
     
@@ -22,10 +22,10 @@ async def endecrypt(query):
     xx = query.pattern_match.group(1)
     if xx:
         msg = xx
-    elif event.is_reply:
-        msg = await event.get_reply_message()
+    elif query.is_reply:
+        msg = await query.get_reply_message()
     else:
-        return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply**")
+        return await edit_delete(query, "**Berikan Sebuah Pesan atau Reply**")
     lething = str(pybase64.b64decode(bytes(msg, "utf-8"), validate=True))[2:]
     await query.edit(f"**Decoded from** `{msg}` **:**\n`" + lething[:-1] + "`")
         

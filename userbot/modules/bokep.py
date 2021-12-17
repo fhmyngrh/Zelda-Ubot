@@ -8,7 +8,7 @@ async def amireallysxs(sxs):
     user = await bot.get_me()
     capt = str(sxs.pattern_match.group(1).split(" ", 2)[0])
     link = str(sxs.pattern_match.group(1).split(" ", 2)[1])
-    capti = capt.replace("_", " ")
+    capti = capt.replace(".", " ")
     thumb = "https://telegra.ph/file/ddb9147429cae2ae6135e.jpg"
     await sxs.edit("__Please Wait.__")
     await sxs.edit("__Please Wait..__")
@@ -49,7 +49,7 @@ async def amireallylsid(lsid):
     user = await bot.get_me()
     capt = str(lsid.pattern_match.group(1).split(" ", 2)[0])
     link = str(lsid.pattern_match.group(1).split(" ", 2)[1])
-    capti = capt.replace("_", " ")
+    capti = capt.replace(".", " ")
     thumb = "https://telegra.ph/file/22eda4c6851fd81b3b46a.jpg"
     await lsid.edit("__Please Wait.__")
     await lsid.edit("__Please Wait..__")

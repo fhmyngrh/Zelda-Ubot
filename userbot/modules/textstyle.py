@@ -52,7 +52,7 @@ def sim(text):
     return text
 
 
-@bot.on(zelda_cmd(outgoing=True, pattern=r"ts (typewriter|serif|smallcap|outline|san|slantsan) (.*)"))
+@bot.on(zelda_cmd(outgoing=True, pattern=r"ts (typewriter|serif|smallcap|outline|san|slantsan|script|sin) (.*)"))
 async def textstyle(event):
     if event.pattern_match.group(1) == "typewriter":
         cls = typewriter

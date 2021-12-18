@@ -16,7 +16,7 @@ def serif(text):
     return text
     
 def smallcap(text):
-    style = {'a': 'ᴀ', 'b': 'ʙ', 'c': 'ᴄ', 'd': 'ᴅ', 'e': 'ᴇ', 'f': 'ғ', 'g': 'ɢ', 'h': 'ᕼ', 'i': 'ɪ', 'j': 'ᴊ', 'k': 'ᴋ', 'l': 'ʟ', 'm': 'ᴍ', 'n': 'ɴ', 'o': 'ᴏ', 'p': 'ᴘ', 'q': 'ǫ', 'r': 'ʀ', 's': 's', 't': 'ᴛ', 'u': 'ᴜ', 'v': 'ᴠ', 'w': 'ᴡ', 'x': 'x', 'y': 'ʏ', 'z': 'ᴢ', 'A': 'ᴀ', 'B': 'ʙ', 'C': 'ᴄ', 'D': 'ᴅ', 'E': 'ᴇ', 'F': 'ғ', 'G': 'ɢ', 'H': 'ʜ', 'I': 'ɪ', 'J': 'ᴊ', 'K': 'ᴋ', 'L': 'ʟ', 'M': 'ᴍ', 'N': 'ɴ', 'O': 'ᴏ', 'P': 'ᴘ', 'Q': 'ǫ', 'R': 'ʀ', 'S': 's', 'T': 'ᴛ', 'U': 'ᴜ', 'V': 'ᴠ', 'W': 'ᴡ', 'X': 'x', 'Y': 'ʏ', 'Z': 'ᴢ',}
+    style = {'a': 'ᴀ', 'b': 'ʙ', 'c': 'ᴄ', 'd': 'ᴅ', 'e': 'ᴇ', 'f': 'ғ', 'g': 'ɢ', 'h': 'ʜ', 'i': 'ɪ', 'j': 'ᴊ', 'k': 'ᴋ', 'l': 'ʟ', 'm': 'ᴍ', 'n': 'ɴ', 'o': 'ᴏ', 'p': 'ᴘ', 'q': 'ǫ', 'r': 'ʀ', 's': 's', 't': 'ᴛ', 'u': 'ᴜ', 'v': 'ᴠ', 'w': 'ᴡ', 'x': 'x', 'y': 'ʏ', 'z': 'ᴢ', 'A': 'ᴀ', 'B': 'ʙ', 'C': 'ᴄ', 'D': 'ᴅ', 'E': 'ᴇ', 'F': 'ғ', 'G': 'ɢ', 'H': 'ʜ', 'I': 'ɪ', 'J': 'ᴊ', 'K': 'ᴋ', 'L': 'ʟ', 'M': 'ᴍ', 'N': 'ɴ', 'O': 'ᴏ', 'P': 'ᴘ', 'Q': 'ǫ', 'R': 'ʀ', 'S': 's', 'T': 'ᴛ', 'U': 'ᴜ', 'V': 'ᴠ', 'W': 'ᴡ', 'X': 'x', 'Y': 'ʏ', 'Z': 'ᴢ',}
     for i, j in style.items():
         text = text.replace(i, j)
     return text
@@ -38,9 +38,21 @@ def slantsan(text):
     for i, j in style.items():
         text = text.replace(i, j)
     return text
+    
+def script(text):
+    style = {'a': '𝒶', 'b': '𝒷', 'c': '𝒸', 'd': '𝒹', 'e': 'ℯ', 'f': '𝒻', 'g': 'ℊ', 'h': '𝒽', 'i': '𝒾', 'j': '𝒿', 'k': '𝓀', 'l': '𝓁', 'm': '𝓂', 'n': '𝓃', 'o': 'ℴ', 'p': '𝓅', 'q': '𝓆', 'r': '𝓇', 's': '𝓈', 't': '𝓉', 'u': '𝓊', 'v': '𝓋', 'w': '𝓌', 'x': '𝓍', 'y': '𝓎', 'z': '𝓏', 'A': '𝒜', 'B': 'ℬ', 'C': '𝒞', 'D': '𝒟', 'E': 'ℰ', 'F': 'ℱ', 'G': '𝒢', 'H': 'ℋ', 'I': 'ℐ', 'J': '𝒥', 'K': '𝒦', 'L': 'ℒ', 'M': 'ℳ', 'N': '𝒩', 'O': '𝒪', 'P': '𝒫', 'Q': '𝒬', 'R': 'ℛ', 'S': '𝒮', 'T': '𝒯', 'U': '𝒰', 'V': '𝒱', 'W': '𝒲', 'X': '𝒳', 'Y': '𝒴', 'Z': '𝒵'}
+    for i, j in style.items():
+        text = text.replace(i, j)
+    return text
+    
+def sim(text):
+    style = {'a': '𝖺', 'b': '𝖻', 'c': '𝖼', 'd': '𝖽', 'e': '𝖾', 'f': '𝖿', 'g': '𝗀', 'h': '𝗁', 'i': '𝗂', 'j': '𝗃', 'k': '𝗄', 'l': '𝗅', 'm': '𝗆', 'n': '𝗇', 'o': '𝗈', 'p': '𝗉', 'q': '𝗊', 'r': '𝗋', 's': '𝗌', 't': '𝗍', 'u': '𝗎', 'v': '𝗏', 'w': '𝗐', 'x': '𝗑', 'y': '𝗒', 'z': '𝗓', 'A': '𝖠', 'B': '𝖡', 'C': '𝖢', 'D': '𝖣', 'E': '𝖤', 'F': '𝖥', 'G': '𝖦', 'H': '𝖧', 'I': '𝖨', 'J': '𝖩', 'K': '𝖪', 'L': '𝖫', 'M': '𝖬', 'N': '𝖭', 'O': '𝖮', 'P': '𝖯', 'Q': '𝖰', 'R': '𝖱', 'S': '𝖲', 'T': '𝖳', 'U': '𝖴', 'V': '𝖵', 'W': '𝖶', 'X': '𝖷', 'Y': '𝖸', 'Z': '𝖹'}
+    for i, j in style.items():
+        text = text.replace(i, j)
+    return text
 
 
-@bot.on(zelda_cmd(outgoing=True, pattern=r"fs (typewriter|serif|smallcap|outline|san|slantsan) (.*)"))
+@bot.on(zelda_cmd(outgoing=True, pattern=r"ts (typewriter|serif|smallcap|outline|san|slantsan) (.*)"))
 async def textstyle(event):
     if event.pattern_match.group(1) == "typewriter":
         cls = typewriter
@@ -54,6 +66,10 @@ async def textstyle(event):
         cls = san
     if event.pattern_match.group(1) == "slantsan":
         cls = slantsan
+    if event.pattern_match.group(1) == "script":
+        cls = script
+    if event.pattern_match.group(1) == "sim":
+        cls = sim
     msg = cls(event.pattern_match.group(2))
     await event.edit(f"{msg}")
     
@@ -61,15 +77,17 @@ async def textstyle(event):
 CMD_HELP.update(
     {
         "textstyle": f"**Plugin : **`textstyle`\
-        \n\n  •  **Syntax :** `{cmd}fs` [style] [text]\
-        \n  •  **Function : **Menbuat Text dengab Fonts Style.\
-        \n\n  •  **STYLE :**\
-        \n  -  typewriter\
-        \n  -  serif\
-        \n  -  smallcap\
-        \n  -  outline\
-        \n  -  san\
-        \n  -  slantsan\
+        \n\n  •  **Syntax :** `{cmd}fs` `[style]` `[text]`\
+        \n  •  **Function : **Membuat Text dengan Fonts Style.\
+        \n\n  •  **STYLE TERSEDIA:**\
+        \n  -  `typewriter`\
+        \n  -  `serif`\
+        \n  -  `smallcap`\
+        \n  -  `outline`\
+        \n  -  `san`\
+        \n  -  `slantsan`\
+        \n  -  `script`\
+        \n  -  `sim`\
     "
     }
 )

@@ -40,7 +40,7 @@ def slantsan(text):
     return text
 
 
-@bot.on(zelda_cmd(outgoing=True, pattern=r"ts (typewriter|serif|smallcap|outline|san|slantsan) (.*)"))
+@bot.on(zelda_cmd(outgoing=True, pattern=r"fs (typewriter|serif|smallcap|outline|san|slantsan) (.*)"))
 async def textstyle(event):
     if event.pattern_match.group(1) == "typewriter":
         cls = typewriter
@@ -61,7 +61,7 @@ async def textstyle(event):
 CMD_HELP.update(
     {
         "textstyle": f"**Plugin : **`textstyle`\
-        \n\n  •  **Syntax :** `{cmd}ts` [style] [text]\
+        \n\n  •  **Syntax :** `{cmd}fs` [style] [text]\
         \n  •  **Function : **Menbuat Text dengab Fonts Style.\
         \n\n  •  **STYLE :**\
         \n  -  typewriter\

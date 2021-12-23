@@ -6,6 +6,10 @@
   "repository": "https://github.com/fhmyngrh/Zelda-Ubot",
   "stack": "container",
   "env": {
+  "ALIVE_NAME": {
+      "description": "Masukan Nama untuk menunjukan pesan di perintah .alive / .afk / .ping dan lain lain",
+      "required": true
+    },
     "API_KEY": {
       "description": "Dapatkan API KEY di web my.telegram.org Masukan yg APP ID Telegram",
       "required": true
@@ -35,23 +39,13 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah grup telegram publik lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
-      "value": "Isi id grup mu wajib dengan awalan -100 [KALAU BUKAN AWALAN -100 = BAKALAN ERROR]",
+      "description": "Buatlah grup telegram publik lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini.",
       "required": true
     },
     "PM_AUTO_BAN": {
       "description": "PM Auto-Ban adalah module untuk bot welcome otomatis ketika ada orang ngePC kamu, jika Mau di matikan ubah ke False",
       "value": "True",
       "required": false
-    },
-    "UPSTREAM_REPO_URL": {
-      "description": "UPSTREAM Link Repo Utama",
-      "value": "https://github.com/fhmyngrh/Zelda-Ubot",
-      "required": true
-    },
-    "ALIVE_NAME": {
-      "description": "Masukan Nama untuk menunjukan pesan di perintah .alive / .afk / .ping dan lain lain",
-      "required": true
     }
   },
   "addons": [

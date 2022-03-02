@@ -1,6 +1,6 @@
 # Credits: mrconfused
 # Recode by @mrismanaziz
-# FROM ZELDA USERBOT <https://github.com/fhmyngrh/Zelda-Ubot>
+# FROM ZELDA USERBOT <https://github.com/nmiabdfhmy/Zelda-Ubot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import asyncio

@@ -1,6 +1,6 @@
 # Copyright (C) 2020  @deleteduser420 <https://github.com/code-rgb>
 # ported by @mrismanaziz
-# FROM ZELDA USERBOT <https://github.com/fhmyngrh/Zelda-Ubot>
+# FROM ZELDA USERBOT <https://github.com/nmiabdfhmy/Zelda-Ubot>
 # t.me/SharingUserbot & t.me/Lunatic0de
 
 import os

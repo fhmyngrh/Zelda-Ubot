@@ -6,7 +6,7 @@
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 #
 # Ported by @mrismanaziz
-# FROM ZELDA USERBOT <https://github.com/fhmyngrh/Zelda-Ubot>
+# FROM ZELDA USERBOT <https://github.com/nmiabdfhmy/Zelda-Ubot>
 # t.me/Lunatic0de & t.me/SharingUserbot
 
 import os
